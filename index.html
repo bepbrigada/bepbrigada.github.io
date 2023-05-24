@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>BEP - Brigada de Emergência Particular</title>
+</head>
+
+<body>
+    <header>
+        <!-- example: https://getbootstrap.com/docs/5.3/examples/navbar-fixed/# -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-bep-height navbar-bep-background">
+            <div class="container-fluid">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-brand"><a aria-current="page" href="#home"><img class="navbar-bep-logo-md" src="images/BEP-fnd-prt.png" alt="BEP Brigada de Emergência Particular"></a></div>
+                <div class="navbar-collapse collapse navbar-bep-background" id="navbarCollapse">
+                    <ul class="navbar-nav m-auto mb-2 mb-md-0 w-100 justify-content-evenly align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="#">Prevenção</a></li>
+                        <li><div class="nav-item-bullet rounded-circle"></div></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Treinamentos</a></li>
+                        <div class="nav-item-bullet-brand rounded-circle"></div>
+                        <li class="navbar-brand"><a aria-current="page" href="#home"><img class="navbar-bep-logo" src="images/BEP-fnd-prt.png" alt="BEP Brigada de Emergência Particular"></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Eventos</a></li>
+                        <li><div class="nav-item-bullet rounded-circle"></div></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div>
+                <p class="home-text my-3">
+                    Bem-vindo à BEP Serviços de Brigada, a sua solução completa em serviços de brigada! Somos uma empresa especializada em oferecer suporte em emergências, segurança e prevenção de incêndios em diferentes tipos de ambientes.
+                </p>
+                <div class="home-imgs-container rounded-2 d-flex justify-content-evenly">
+                    <img src="images/BEP-fnd-bco.png" class="home-img-logo rounded-2">
+                    <img src="images/photo-home01.jpg" class="home-img rounded-2">
+                    <img src="images/photo-home02.jpg" class="home-img rounded-2">
+                    <img src="images/photo-home03.jpg" class="home-img rounded-2">
+                </div>
+            </div>
+        </section>
+        <section id="home2">
+            <div>
+                <p class="home-text2 text-center">
+                    Na BEP Serviços de Brigada, acreditamos que a prevenção é a chave para evitar acidentes e garantir a segurança das pessoas e do patrimônio. Por isso, trabalhamos constantemente na atualização e melhoria de nossos serviços, buscando sempre as melhores práticas e tecnologias disponíveis no mercado, sempre respeitando as normas e legislações aplicáveis.
+                </p>
+                <div class="home-imgs-container rounded-2 d-flex justify-content-evenly">
+                    <img src="images/photo-home04.jpg" class="home-img rounded-2">
+                    <img src="images/photo-home05.jpg" class="home-img rounded-2">
+                    <img src="images/photo-home06.jpg" class="home-img rounded-2">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div>
+                <p class="home-text text-center mx-auto">Entre em contato conosco e descubra como podemos ajudar a proteger o seu patrimônio. A BEP Serviços de Brigada está pronta para oferecer soluções personalizadas.</p>
+                <form>
+                    <formfield class="text-white">
+                        <div class="formfield mx-auto">
+                            <div class="row mb-3 justify-content-center">
+                                <label for="name" class="col-md-2 col-form-label">Seu nome:</label>
+                                <div class="col-md-6">
+                                    <input id="name" class="form-control form-control-md" type="text">
+                                </div>
+                            </div>
+                            <div class="row mb-3 justify-content-center">
+                                <label for="name" class="col-md-2 col-form-label">Telefone:</label>
+                                <div class="col-md-6">
+                                    <input id="name" class="form-control form-control-md" type="tel">
+                                </div>
+                            </div>
+                            <div class="row mb-3 justify-content-center">
+                                <label for="name" class="col-md-2 col-form-label">E-mail:</label>
+                                <div class="col-md-6">
+                                    <input id="name" class="form-control form-control-md" type="email">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-8 text-end">
+                                    <input type="button" value="Enviar" class="btn btn-yellow">
+                                </div>
+                            </div>
+                        </div>
+                    </formfield>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+
+</html>
