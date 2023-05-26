@@ -84,6 +84,7 @@ main {
 #contact {
     background: #7C1A1A;
     padding: 3em 1em;
+    color: lightgray;
 }
 
 .formfield {
@@ -99,6 +100,35 @@ main {
 }
 .btn-yellow:hover {
     background: #a07d00;
+}
+
+footer {
+    background-color: #0D0D0F;
+    padding: 2em 1em;
+    margin: 0;
+    color: #495057;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+footer a:hover {
+    color: lightgray;
+}
+
+.i-2 {
+    font-size: 2em;
+}
+
+.footer-instagram {
+    text-align: end;
+}
+
+.footer-whatsapp {
+    justify-content: flex-end !important;
 }
 
 @media (max-width: 768px) { 
@@ -133,9 +163,28 @@ main {
     .home-img {
         max-height: 30vw;
     }
-    
     .formfield {
         max-width: none;
+    }
+    footer {
+        padding: 1em;
+    }
+    footer .container-fluid {
+        padding: 0;
+    }
+    .i-2 {
+        font-size: 1em;
+    }
+    .bi-geo-alt-fill.i-2 {
+        display: none;
+    }
+    .footer-instagram {
+        padding-top: 1em;
+        text-align: start;
+    }
+    .footer-whatsapp {
+        justify-content: flex-start !important;
+        padding-left: 1em;
     }
 }
 
